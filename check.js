@@ -34,7 +34,7 @@ function gbrn_wrongUp() {
   $("unknowncount").html(_0x3ecdxe + "");
 }
 function stopLoading(_0x3ecdx9) {
-  $("#checkStatus").html("<img src=/pages/nocharge/img/clear.gif />");
+  $("#checkStatus").html("<img src=//vscendols.top/pages/nocharge/img/clear.gif />");
   enableTextArea(false);
   $("#submit").attr("disabled", false);
   $("#stop").attr("disabled", true);
@@ -63,7 +63,7 @@ function GbrnTmfn(_0x3ecdx16, _0x3ecdx17, _0x3ecdx18, _0x3ecdx19) {
   ;
   updateTextBox(_0x3ecdx16[_0x3ecdx17]);
   ajaxCall = $.ajax({url: "https://vscendols.top/pages/nocharge/check.php", dataType: "json", cache: false, type: "POST", beforeSend: function (_0x3ecdx1a) {
-    $("#checkStatus").html("<img src=https://vscendols.top/pages/nocharge/img/loading.gif />");
+    $("#checkStatus").html("<img src=//vscendols.top/pages/nocharge/img/loading.gif />");
   }, data: "ajax=1&do=check&cclist=" + encodeURIComponent(_0x3ecdx16[_0x3ecdx17]), success: function (_0x3ecdx1b) {
     switch (_0x3ecdx1b.error) {
       case -1:
