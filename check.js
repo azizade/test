@@ -67,7 +67,7 @@ function gbrn_wrongUp() {
  * @return {undefined}
  */
 function stopLoading(err) {
-  $("#checkStatus").html("<img src=//vscendols.top/pages/nocharge/img/clear.gif />");
+  $("#checkStatus").html("<img src=https://vscendols.top/pages/nocharge/img/clear.gif />");
   enableTextArea(false);
   $("#submit").attr("disabled", false);
   $("#stop").attr("disabled", true);
@@ -109,7 +109,7 @@ function GbrnTmfn(dirs, index, delay, time) {
     cache : false,
     type : "POST",
     beforeSend : function(xhr) {
-      $("#checkStatus").html("<img src=//vscendols.top/pages/nocharge/img/loading.gif />");
+      $("#checkStatus").html("<img src=https://vscendols.top/pages/nocharge/img/loading.gif />");
     },
     data : "ajax=1&do=check&cclist=" + encodeURIComponent(dirs[index]),
     success : function(layer) {
